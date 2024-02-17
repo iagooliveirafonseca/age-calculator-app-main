@@ -22,24 +22,24 @@
       <header class="boxDate">
         <div>
           <p class="takeParagrafhTime">day</p>
-          <input type="text" placeholder="DD" name="day" oninput="validDate()">
+          <input type="number" placeholder="DD" name="day" oninput="validDate()">
           <span>This Field is required</span>
         </div>
         <div>
           <p class="takeParagrafhTime">month</p>
-          <input type="text" placeholder="MM" name="month" oninput="validMonth()">
+          <input type="number" placeholder="MM" name="month" oninput="validMonth()">
           <span>This Field is required</span>
         </div>
         <div>
           <p class="takeParagrafhTime">year</p>
-          <input type="text" placeholder="YYYY" name="year" oninput="validYear()">
+          <input type="number" placeholder="YYYY" name="year" oninput="validYear()">
           <span>This Field is required</span>
         </div>
       </header>
       <aside>
         <hr>
         <div>
-          <img src="./assets/images/icon-arrow.svg" alt="">
+          <img src="./assets/images/icon-arrow.svg" alt="" onclick= "calcularIdade()">
         </div>
       </aside>
       <footer>
